@@ -25,5 +25,9 @@ for (let i = 0; i < arr.length; i++) {
 console.log(productOfArr);
 
 for (let i = 0; i < improvisation.length; i++) {
-    
+   if (improvisation[i] % 2) {
+       console.log(improvisation[i] + ' odd');
+    }  else {
+       console.log(improvisation[i] + ' even');
+    }
 }
